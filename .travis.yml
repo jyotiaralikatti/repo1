@@ -1,6 +1,6 @@
 language:C
 sudo: false # only for faster
-compiler GCC
+compiler: gcc
 script:
--gcc -o new new.c
--./new
+- gcc -o new new.c
+- ./new
