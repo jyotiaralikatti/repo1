@@ -2,5 +2,5 @@ language:C
 sudo: false # only for faster
 compiler GCC
 script:
--gcc -o file file.c
--./file
+-gcc -o new new.c
+-./new
