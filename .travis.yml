@@ -1,4 +1,4 @@
-language:C
+language: C
 sudo: false # only for faster
 compiler: gcc
 script:
